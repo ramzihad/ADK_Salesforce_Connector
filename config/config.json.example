@@ -1,0 +1,14 @@
+{
+    "username": "your-salesforce-username",
+    "password": "your-salesforce-password", 
+    "securityToken": "your-security-token",
+    "loginUrl": "https://login.salesforce.com",
+    "version": "59.0",
+    "timeout": 60000,
+    "sandbox": false,
+    "oauth": {
+        "clientId": "your-oauth-consumer-key",
+        "clientSecret": "your-oauth-consumer-secret",
+        "redirectUri": "https://your-app.com/oauth/callback"
+    }
+}

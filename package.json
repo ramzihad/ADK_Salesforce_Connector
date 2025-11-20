@@ -1,0 +1,28 @@
+{
+  "name": "adk-salesforce-connector",
+  "version": "1.0.0",
+  "description": "A comprehensive Salesforce connector for ADK (Application Development Kit) providing easy integration with Salesforce APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node examples/example.js"
+  },
+  "keywords": [
+    "salesforce",
+    "connector",
+    "adk",
+    "api",
+    "integration",
+    "crm"
+  ],
+  "author": "ADK Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "jsforce": "^3.10.7"
+  }
+}
